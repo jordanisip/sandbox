@@ -1,8 +1,8 @@
 // Importing 3rd Party Mixins
 @import "bourbon";
 
-// @import "base/vendor/animate/animate";
-// @import "base/mixins/text-shadow";
+@import "base/vendor/animate/animate";
+@import "base/mixins/text-shadow";
 
 // font-face - 3rd Party Mixin Provided by Bourbon
 @include font-face(BrandonGrotesque, '/fonts/brandon_blk-webfont', bold);
@@ -47,6 +47,6 @@ h1 {
   // -.045em .050em $shade,
   // -.050em .045em $shade;
 
-  // @include closed-text-shadow(10, $shade);
-  // @include bounceInDown();
+  @include closed-text-shadow(10, $shade);
+  @include bounceInDown();
 }
