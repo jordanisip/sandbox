@@ -9,7 +9,5 @@
     $shadows: append($shadows, append($shadow-bottom - $i * $shadow-step $shadow-top + $i * $shadow-step, $color));
   }
 
-   -webkit-text-shadow: $shadows;
-     -moz-text-shadow: $shadows;
-          text-shadow: $shadows;
+  text-shadow: $shadows;
 }
