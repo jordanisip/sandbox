@@ -1,0 +1,47 @@
+@import "bourbon";
+// @import "base/vendor/animate/animate";
+// @import "base/mixins/text-shadow";
+
+// 3rd Party Mixin Provided by Bourbon
+@include font-face(BrandonGrotesque, '/fonts/brandon_blk-webfont', bold);
+
+$blue: #3CB4F3;
+$yellow: #FAEC24;
+$shade: darken($blue, 20%);
+
+body {
+  background-color: $blue;
+  text-align: center;
+  margin-top: 150px;
+}
+
+h1 {
+  font-family: "BrandonGrotesque";
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 10em;
+  color: $yellow;
+  // text-shadow: 0 .005em $shade,
+  // -.005em 0 $shade,
+  // -.005em .010em $shade,
+  // -.010em .005em $shade,
+  // -.010em .015em $shade,
+  // -.015em .010em $shade,
+  // -.015em .020em $shade,
+  // -.020em .015em $shade,
+  // -.020em .025em $shade,
+  // -.025em .020em $shade,
+  // -.025em .030em $shade,
+  // -.030em .025em $shade,
+  // -.030em .035em $shade,
+  // -.035em .030em $shade,
+  // -.035em .040em $shade,
+  // -.040em .035em $shade,
+  // -.040em .045em $shade,
+  // -.045em .040em $shade,
+  // -.045em .050em $shade,
+  // -.050em .045em $shade;
+
+  // @include closed-text-shadow(10, $shade);
+  // @include bounceInDown();
+}
