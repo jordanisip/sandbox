@@ -1,8 +1,29 @@
+// Vendor Framework
 @import 'bourbon';
-@import "base/grid-settings";
-@import 'neat';
 
-// Bourbon base
-@import "base/base";
+// Variables
+@import "base/variables/all";
 
-$blue: #64A0f7;
+// Custom Mixins
+@import "base/mixins/text-shadows";
+@import "base/mixins/animations";
+
+// Vendor Mixins
+@import "neat";
+
+// Extends
+@import "extends/button";
+//@import "extends/clearfix";
+//@import "extends/errors";
+//@import "extends/flashes";
+//@import "extends/hide-text";
+
+// Base Elements
+@import "base/elements/typography";
+@import "base/elements/buttons";
+//@import "base/elements/forms";
+//@import "base/elements/tables";
+//@import "base/elements/lists";
+
+// Modules
+@import "modules/dropshadow";

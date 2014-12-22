@@ -2,7 +2,7 @@
 # the following line to use "http://" instead
 source 'https://rubygems.org'
 
-gem "middleman", "~>3.3.7"
+gem "middleman"
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
@@ -17,3 +17,4 @@ gem 'bourbon'
 gem 'neat'
 gem 'bitters'
 #gem 'refills'
+gem 'animate-sass'
